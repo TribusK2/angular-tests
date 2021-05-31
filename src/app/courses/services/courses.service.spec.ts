@@ -4,7 +4,6 @@ import { HttpClientTestingModule, HttpTestingController } from "@angular/common/
 import { COURSES, findLessonsForCourse } from "../../../../server/db-data";
 import { Course } from "../model/course";
 import { HttpErrorResponse } from "@angular/common/http";
-import { forEach } from "cypress/types/lodash";
 
 
 describe("CoursesService", () => {
